@@ -31,9 +31,9 @@ The `YieldandCultivation.tsx` component displays average data for crop yield and
 
 ## Preview
 
-![Crop Production Table Preview](manufac\public\image\cropProduction.png)
+![Crop Production Table Preview](public\image\cropProduction.png)
 
-![YieldandCultivation Table Preview](manufac\public\image\YieldandCultivation.png)
+![YieldandCultivation Table Preview](public\image\YieldandCultivation.png)
 
 
 ## Usage
