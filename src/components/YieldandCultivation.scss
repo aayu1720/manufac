@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.result-table{
+      display: flex;
+      flex-direction: column;
+      &__header{
+          display: flex;
+          width: 100%;
+          height: 40px;
+          font-weight: 700;
+          background-color: grey;
+          border: 1px solid green;
+
+          &--Crop{
+              width: 250px;
+              padding-left: 10px; 
+          }
+          &--averageYield{
+              width: 280px;
+          }
+          &--averageCultivationArea{
+              width: 280px; 
+          }
+      }
+      &__body{
+          height: 540px;
+          overflow: auto;
+
+          .result-table-row{
+              display: flex;
+              width: 100%;
+              height: 40px;
+              background-color: whitesmoke;
+              border-bottom: 1px solid green;
+              &:hover{
+                  background-color:burlywood; 
+              }
+              &--crop{
+                  width: 250px;
+                  padding: 0px 10px 0px 10px;
+                  line-height: 36px;
+                  position: relative;
+                  display: inline-block;
+              }
+              &--averageYield{
+                  width: 280px;
+                  position: relative;
+                  display: inline-block;
+              }
+              &--averageCultivationArea{
+                  max-width: 280px;
+                  width: 280px;
+                  line-height: 38px;
+              }
+          }
+      }
+
+  }
