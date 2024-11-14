@@ -26,14 +26,14 @@ This project provides a React-based frontend for visualizing crop production dat
 
 ## YieldandCultivation.tsx
 
+
 The `YieldandCultivation.tsx` component displays average data for crop yield and cultivation areas, using a simple table layout.
 
 
 ## Preview
 
-![Crop Production Table Preview](public\image\cropProduction.png)
-
-![YieldandCultivation Table Preview](public\image\YieldandCultivation.png)
+![cropProduction](https://github.com/user-attachments/assets/33d40667-86e9-4175-a825-fdb73714cb20)
+![YieldandCultivation](https://github.com/user-attachments/assets/be379d50-1a8b-4fe0-a585-0a147b4ab6bc)
 
 
 ## Usage
